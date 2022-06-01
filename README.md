@@ -4,32 +4,32 @@
 #### Something
 We are talking about just the pay, right? Then the list would look like:
 
-Reve Systems  
-The Tiger IT  
-Cefalo  
-Infolytix
-Relisource (When it gets good project)
-IPay
-Newscred
-The Jaxara IT Ltd
-Dohatec New Media
-Kona Soft
-Secure Link Services Ltd
-Aplectrum Solutions Ltd
-Enosis
+-  Reve Systems  
+-  The Tiger IT  
+-  Cefalo  
+-  Infolytix  
+-  Relisource (When it gets good project)  
+-  IPay  
+-  Newscred  
+-  The Jaxara IT Ltd  
+-  Dohatec New Media  
+-  Kona Soft  
+-  Secure Link Services Ltd  
+-  Aplectrum Solutions Ltd  
+-  Enosis  
 In today’s world software system firms treat many business models and that they usually turn out differing kinds of product-supported client demands or market things. Nowadays, most of the world's firms have begun to use custom solutions to fulfill their specific desires. though the trend of the amendment has influenced Bangladeshi firms too.
 
-MicroDeft
-Kaz Software Limited
-Brain Station 23 Limited
-Lead Soft
-Southtech Limited
-Datasoft systems in Bangladesh
-Tiger IT
-Smart software limited
-NewCred
-Magnito Digital
-Alternatively, for H1 and H2, an underline-ish style:
+-  MicroDeft  
+-  Kaz Software Limited  
+-  Brain Station 23 Limited  
+-  Lead Soft  
+-  Southtech Limited  
+-  Datasoft systems in Bangladesh  
+-  Tiger IT  
+-  Smart software limited  
+-  NewCred  
+-  Magnito Digital  
+
 Here is a list that may help you:
 - Reve Systems
 - Newscred
