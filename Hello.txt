@@ -1,0 +1,72 @@
+while(T--){
+        int n;     cin>>n;
+        vector<pair<int,int> >v(n);
+        int MAX=0;
+      vector<int>out(n);
+        for(int i=0;i<n;++i){
+          cin>>v[i].first;
+          v[i].second=i;
+          out[i] = i+1;
+        }
+        sort(v.begin() , v.end());
+       
+        bool ans=1;
+        for(int i=0;i<n;++i){
+          if( i == 0 && v[i].first != v[i+1].first ){
+        ans=0;   break;
+        }
+        if( i == n-1 && v[i].first != v[i-1].first){
+           ans=0;   break;  
+        }
+        if( i >0 && i< n-1 && v[i].first != v[i+1].first && v[i].first != v[i-1].first){
+          ans=0;  break;  
+        }
+         if(v[i].first == v[i+1].first){
+           swap(out[v[i].second] ,out[v[i+1].second]);
+         }
+        }
+        if(!ans)cout<<"-1"<<endl;
+        else{
+            for(int i=0;i<n;++i) cout<<out[i]<<' ';  
+            cout<<endl;
+        }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+void solve(){
+    int n,k;cin>>n>>k;
+    string s;cin>>s;
+    ll ans=0;
+    for (int i =1;i<n;i++){
+        if(s[i]<s[i-1] && k>0){
+        swap(s[i-1],s[i]);
+        k-=1;   }
+        if (k==0)break;
+    }
+    
+    for (int i =1;i<n;i++){
+        string sum="";
+        sum+=s[i-1];
+        sum+=s[i];
+        ans+=stoi(sum);    
+        }
+    cout<<ans<<endl;
